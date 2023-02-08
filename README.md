@@ -44,7 +44,23 @@ new (typedArrayConstructor(65535 + 1))(10);
 
 <!-- api-start -->
 
-Auto-generated API content.
+<a name="module_typedArrayConstructor"></a>
+
+## typedArrayConstructor
+
+<a name="exp_module_typedArrayConstructor--typedArrayConstructor"></a>
+
+### typedArrayConstructor(maxValue, signed) ⇒ <code>Uint8Array</code> \| <code>Uint16Array</code> \| <code>Uint32Array</code> \| <code>BigInt64Array</code> \| <code>Int8Array</code> \| <code>Int16Array</code> \| <code>Int32Array</code> \| <code>BigInt64Array</code> ⏏
+
+Get a typed array constructor based on the hypothetical max value it could contain. Signed or unsigned.
+
+**Kind**: Exported function
+**See**: [MDN TypedArray objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects)
+
+| Param    | Type                 | Description                   |
+| -------- | -------------------- | ----------------------------- |
+| maxValue | <code>number</code>  | The max value expected.       |
+| signed   | <code>boolean</code> | Get a sign or unsigned array. |
 
 <!-- api-end -->
 

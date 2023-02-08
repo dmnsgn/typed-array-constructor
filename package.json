@@ -23,17 +23,17 @@
   ],
   "license": "MIT",
   "author": "dmnsgn (https://github.com/dmnsgn)",
+  "sideEffects": false,
   "type": "module",
   "exports": "./index.js",
   "main": "index.js",
   "types": "types/index.d.ts",
-  "sideEffects": false,
-  "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=8.0.0"
-  },
   "scripts": {
     "test": "node --test --test-reporter spec",
     "test:watch": "npm test -- --watch test"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   }
 }

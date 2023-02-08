@@ -1,0 +1,39 @@
+{
+  "name": "typed-array-constructor",
+  "version": "1.0.0",
+  "description": "Get a typed array constructor based on the hypothetical max value it could contain. Signed or unsigned.",
+  "keywords": [
+    "constructor",
+    "typed-arrays",
+    "arrays",
+    "util"
+  ],
+  "homepage": "https://github.com/dmnsgn/typed-array-constructor",
+  "bugs": "https://github.com/dmnsgn/typed-array-constructor/issues",
+  "repository": "dmnsgn/typed-array-constructor",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "dmnsgn (https://github.com/dmnsgn)",
+  "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter spec",
+    "test:watch": "npm test -- --watch test"
+  }
+}

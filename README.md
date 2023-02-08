@@ -36,6 +36,11 @@ new (typedArrayConstructor(127, true))(10);
 new (typedArrayConstructor(255, true))(10);
 // => Int16Array(10)
 
+new (typedArrayConstructor(-255))(10);
+// => Uint8Array(10)
+new (typedArrayConstructor(-255, true))(10);
+// => Int16Array(10)
+
 new (typedArrayConstructor(65535 + 1))(10);
 // => Uint32Array(10)
 ```

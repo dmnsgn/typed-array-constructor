@@ -14,7 +14,7 @@ const upperBoundsArray = Array.from(upperBounds.entries());
  *
  * @alias module:typedArrayConstructor
  * @param {number} maxValue The max value expected.
- * @param {boolean} signed Get a sign or unsigned array.
+ * @param {boolean} signed Get a signed or unsigned array.
  * @returns {(Uint8Array|Uint16Array|Uint32Array|BigInt64Array|Int8Array|Int16Array|Int32Array|BigInt64Array)}
  * @see [MDN TypedArray objects]{@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects}
  */

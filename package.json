@@ -1,6 +1,6 @@
 {
   "name": "typed-array-constructor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get a typed array constructor based on the hypothetical max value it could contain. Signed or unsigned.",
   "keywords": [
     "constructor",

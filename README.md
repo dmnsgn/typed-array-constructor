@@ -62,10 +62,10 @@ Get a typed array constructor based on the hypothetical max value it could conta
 **Kind**: Exported function
 **See**: [MDN TypedArray objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects)
 
-| Param    | Type                 | Description                   |
-| -------- | -------------------- | ----------------------------- |
-| maxValue | <code>number</code>  | The max value expected.       |
-| signed   | <code>boolean</code> | Get a sign or unsigned array. |
+| Param    | Type                 | Description                     |
+| -------- | -------------------- | ------------------------------- |
+| maxValue | <code>number</code>  | The max value expected.         |
+| signed   | <code>boolean</code> | Get a signed or unsigned array. |
 
 <!-- api-end -->
 

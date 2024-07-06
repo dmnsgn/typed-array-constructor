@@ -25,8 +25,8 @@ const typedArrayConstructor = (maxValue, signed) => {
       ([_, bound]) =>
         value >
         Math[Math.sign(maxValue) === -1 ? "ceil" : "floor"](
-          bound / (signed ? 2 : 1)
-        )
+          bound / (signed ? 2 : 1),
+        ),
     ) + 1
   ][0][signed ? 0 : 1];
 };

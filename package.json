@@ -1,6 +1,6 @@
 {
   "name": "typed-array-constructor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get a typed array constructor based on the hypothetical max value it could contain. Signed or unsigned.",
   "keywords": [
     "constructor",
@@ -10,7 +10,10 @@
   ],
   "homepage": "https://github.com/dmnsgn/typed-array-constructor",
   "bugs": "https://github.com/dmnsgn/typed-array-constructor/issues",
-  "repository": "dmnsgn/typed-array-constructor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsgn/typed-array-constructor.git"
+  },
   "funding": [
     {
       "type": "individual",
